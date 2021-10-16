@@ -76,9 +76,18 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-.video-fluid {
-  width: 50%;
+.logo {
+  width: 10%;
   height: auto;
+  border-radius: 45% ;
+  
+}
+.stack {
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 5%;
 }
 
 hr {
