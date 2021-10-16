@@ -81,13 +81,6 @@ body {
   height: auto;
   border-radius: 45% ;
 }
-.stack {
-  justify-content: space-between;
-  align-items: center;
-  height: 100px;
-  width: 100%;
-  margin-bottom: 5%;
-}
 
 hr {
   margin: 1rem 0;
