@@ -76,6 +76,10 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.video-fluid {
+  width: 50%;
+  height: auto;
+}
 
 hr {
   margin: 1rem 0;
