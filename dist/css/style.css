@@ -81,6 +81,9 @@ body {
   height: auto;
   border-radius: 45% ;
 }
+p {
+  font-family: 'Oswald', sans-serif;
+}
 
 hr {
   margin: 1rem 0;
