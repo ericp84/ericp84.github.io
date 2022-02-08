@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/ericp84/eric-portfolio-v3/issues"
   },
-  "homepage": "https://github.com/ericp84/eric-portfolio-v3#readme"
+  "homepage": "https://github.com/ericp84/eric-portfolio-v3#readme",
+  "dependencies": {
+    "nodemailer": "^6.7.2"
+  }
 }
