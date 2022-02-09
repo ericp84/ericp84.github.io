@@ -184,7 +184,7 @@
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN" onsubmit="document.location.href='/email'" >
                             <!-- Name input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
@@ -220,7 +220,7 @@
                             <!-- Submit error message-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Erreur d'envoi du message!</div></div>
                             <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Envoi</button>
+                            <button class="btn btn-primary btn-xl " id="submitButton" type="submit">Envoi</button>
                         </form>
                     </div>
                 </div>
@@ -580,6 +580,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="/dist/js/script.js"></script>
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
+        <script src="/index.js"></script>
     </body>
 </html>
